@@ -1,56 +1,109 @@
 @font-face {
-    font-family:time;
-    src: url(/font/timesbd.ttf);
+  font-family: time;
+  src: url(/font/timesbd.ttf);
 }
-body{
-    background-color: rgb(196, 125, 54);}
-.b1{
-    border-radius: 6px;padding:10px; 
-    background-color: rgb(201, 38, 87);font-size: 20px;color: aliceblue;
-text-align: right; border: cadetblue;
+body {
+  background-color: rgb(196, 125, 54);
 }
-.part1{
-   margin-top: 40px; font-size:30px ;font-family:time; margin-left: 150px;
-    display:inline-flex;
-}
-.pic2 img{
-height: 600px; width: 1400px; margin: 10px; margin-top: 10px;
-border-radius: 8px;
-}
-p{display: inline-flex; margin-left: 150px;}
-.b2{
-    background-color: rgb(219, 35, 90);font-size: 25px;color: white;
-    border-radius: 6px;padding-bottom: 8px;
-}
-.b3{
-    background-color: rgb(196, 188, 188);font-size: 25px;color: white;
-    border-radius: 6px;padding-bottom: 8px;margin-left: 1000px;
-   }
-   .part2{
-       text-align: right;margin-right: 10px;
-       position: sticky;
-       top: 0px;
-   }
 
-.b4{
-    background-color: white;font-size: 25px;color:black;
-    border-radius: 6px;margin-top: 5px; 
-}.b5{
-    background-color: white;font-size: 25px;color:black;
-    border-radius: 6px;
-}.b6{
-    background-color: white;font-size: 25px;color:black;
-    border-radius: 6px;
+.b1 {
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgb(201, 38, 87);
+  font-size: 20px;
+  color: aliceblue;
+  text-align: right;
+  border: cadetblue;
 }
-.p1{
-  font-size: 25px;line-height: 20px;font-family: time;
-margin-left: 370px;
+.part1 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: time;
+  margin-left: 150px;
+  display: inline-flex;
 }
-#pic3{
-    height: 500px; width: 1000px; margin: 10px; margin-top: 10px;
-border-radius: 8px;
+.pic2 img {
+  height: 600px;
+  width: 1400px;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
 }
-footer{
-    background-color: rgb(231, 224, 224);height:400px;margin: 25px;
-    margin-left: 0px;margin-right: 0px;padding: 50px;
+p {
+  display: inline-flex;
+  margin-left: 150px;
+}
+.b2 {
+  background-color: rgb(219, 35, 90);
+  font-size: 25px;
+  color: white;
+  border-radius: 6px;
+  padding-bottom: 8px;
+}
+.b3 {
+  background-color: rgb(196, 188, 188);
+  font-size: 25px;
+  color: white;
+  border-radius: 6px;
+  padding-bottom: 8px;
+  margin-left: 1000px;
+}
+
+#komaki{
+    position: relative;
+}
+
+
+
+.part2 {
+  text-align: right;
+  margin-right: 10px;
+  position: absolute;
+right: 100px;
+top: 70px;
+}
+
+
+
+
+
+.b4 {
+  background-color: white;
+  font-size: 25px;
+  color: black;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+.b5 {
+  background-color: white;
+  font-size: 25px;
+  color: black;
+  border-radius: 6px;
+}
+.b6 {
+  background-color: white;
+  font-size: 25px;
+  color: black;
+  border-radius: 6px;
+}
+.p1 {
+  font-size: 25px;
+  line-height: 20px;
+  font-family: time;
+  margin-left: 370px;
+}
+#pic3 {
+  height: 500px;
+  width: 1000px;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+footer {
+  background-color: rgb(231, 224, 224);
+  height: 400px;
+  margin: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 50px;
 }
